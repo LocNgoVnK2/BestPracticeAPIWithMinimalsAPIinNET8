@@ -1,0 +1,5 @@
+1: Add referance each other 4 project like this
+2: Create DependanceInjection class for all layers except domain layer
+3: Regis all DependanceInjection class in API program class
+4: Create floder abstraction in domain layer
+5: Create Abstraction first -> all components -> Exceptions -> events
