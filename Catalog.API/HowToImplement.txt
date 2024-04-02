@@ -1,0 +1,13 @@
+1: Create Model
+2: Install pakage MediatR
+3: Create model endpoints
+4: Create model Handler 
+5: Create BuildingBlocks to configure MediatR pineline
+6: Create ICommand and IQuery in BuildingBlocks project
+7: Create 2 handlers for BuildingBlocks
+8: Write business logic for handle
+9: Create Product endpoints
+10: Write business logic for endpoints
+11: create FluentValidation 
+12: adding ValidationBehavior in building blocks to configure pineline
+13: add it into regis pineline
