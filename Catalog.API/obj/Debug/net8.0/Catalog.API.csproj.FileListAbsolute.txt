@@ -167,3 +167,5 @@ C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalo
 C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalog.API\obj\Debug\net8.0\Catalog.API.pdb
 C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalog.API\obj\Debug\net8.0\Catalog.API.genruntimeconfig.cache
 C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalog.API\obj\Debug\net8.0\ref\Catalog.API.dll
+C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalog.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\intern.nploc1\Downloads\LearnMinimalsApiInNET8\MinimalsApiInNET8\Catalog.API\obj\Debug\net8.0\Catalog.API.MvcApplicationPartsAssemblyInfo.cs

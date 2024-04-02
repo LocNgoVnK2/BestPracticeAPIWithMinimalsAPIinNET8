@@ -1,7 +1,5 @@
 ﻿
 
-using FluentValidation;
-
 namespace Catalog.API.Products
 {
     // in this class use ICommandHandler,ICommand of buildingblocks
@@ -30,18 +28,20 @@ namespace Catalog.API.Products
              it catch thi errors in pineline
             var results = await validator.ValidateAsync(command, cancellationToken);
             var errors = results.Errors.Select(x=>x.ErrorMessage).ToList(); 
-            if (errors.Any())
-            {
-                throw new ValidationException(errors.FirstOrDefault());
-            }*/
-            var product = new Product
-            {
-                Name = command.Name,
-                Category = command.Category,
+            */
+
+            var product = new Product { 
                 Description = command.Description,
+                Category = command.Category,    
                 ImageFile = command.ImageFile,
-                Price = command.Price
+                Price = command.Price,
+                Name = command.Name,
             };
+       
+            if (product == null)
+            {
+                throw new ProductNotFoundException(Guid.NewGuid());
+            }
             //session.Store(product);
             //await session.SaveChangesAsync(cancellationToken);
             return new CreateProductResult(Guid.NewGuid());

@@ -11,3 +11,8 @@
 11: create FluentValidation 
 12: adding ValidationBehavior in building blocks to configure pineline
 13: add it into regis pineline
+14: add exceptions  in building blocks
+15: create and implement exceptions for each services
+16: add logging in to building blocks
+
+step call => ValidationBehavior => LoggingBehavior => CreateProductCommandHandler => LoggingBehavior => ValidationBehavior => response

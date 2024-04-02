@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "bzh9dO3sx1So6UWrQPRNKKzpKkQdMqV9gmSGWp8hcogwNCSeeyJpGz1YSy7plBbObW2wls7rYSGNNN19k+lifw==",
+  "dgSpecHash": "wG5ssx2PoJjlpAD7CX9aKgOO1iRoucd2zjqWspRXBKWtRCag0uhTGV3timk8ZJUZP6QlFQqxYiuzlnLavXBmBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\intern.nploc1\\Downloads\\LearnMinimalsApiInNET8\\MinimalsApiInNET8\\Catalog.API\\Catalog.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\carter\\8.0.0\\carter.8.0.0.nupkg.sha512",
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\fastexpressioncompiler\\4.1.0\\fastexpressioncompiler.4.1.0.nupkg.sha512",
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\intern.nploc1\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\intern.nploc1\\.nuget\\packages\\jasperfx.codegeneration\\3.5.0\\jasperfx.codegeneration.3.5.0.nupkg.sha512",
