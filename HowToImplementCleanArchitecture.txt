@@ -1,5 +1,33 @@
+// referance repo : https://github.com/aspnetrun/run-aspnetcore-microservices/tree/master/src/Services/Ordering/Ordering.Application
 1: Add referance each other 4 project like this
 2: Create DependanceInjection class for all layers except domain layer
 3: Regis all DependanceInjection class in API program class
 4: Create floder abstraction in domain layer
 5: Create Abstraction first -> all components -> Exceptions -> events
+
+-> Come to Infractructure
+6: Create DB context
+7: create Configuration to mapping database wwith domain 
+8: Set connection string 
+9: Set up useSQL SERVER in DependanceInjection of infractructure
+
+10: Migratetion database :
++ Add-Migration InitialCreate
++ Update-Database
+
+11: Set up docker
+12: Add auto migration when start up  : set up with condition environment in program -> create funtion InitialiseDatabaseAsync in extentions floder
+12: add Interceptors entity franework core to add more business logic like set up informayion of this excute: when, by anyone ? when savechanges or query in to data base
+13: Create full Interceptors floder 
+
+
+-> Come to Application
+14 :Create Floder same project referance
+15 : Create DTO relate with domain
+16 : create action like command, query, handler v,v for model 
+17 : create Interface for dbcontext // common case use IRepo bit this example use DB context instead of repository
+18 : Complete file Application
+
+-> Come to Ordering.API
+
+19: 
